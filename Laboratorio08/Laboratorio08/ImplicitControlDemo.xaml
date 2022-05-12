@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio08.ImplicitControlDemo">
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <Style TargetType="Entry">
+                        <Setter Property="HorizontalOptions" Value="Fill" />
+                    </Style>
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            <Entry Text="These entries" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio08.InheritanceDemo">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="baseStyle" TargetType="View">
+                <Setter Property="HorizontalOptions"
+                        Value="Center" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+            </Style>
+            <Style x:Key="labelStyle" TargetType="Label"
+                    BasedOn="{StaticResource baseStyle}">
+                <Setter Property="TextColor" Value="Teal" />
+            </Style>
+            <Style x:Key="buttonStyle" TargetType="Button"
+                    BasedOn="{StaticResource baseStyle}">
+                <Setter Property="BorderColor" Value="Lime" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <Label Text="These labels"
+                    Style="{StaticResource labelStyle}" />
+            <Button Text="So is the button"
+                    Style="{StaticResource buttonStyle}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

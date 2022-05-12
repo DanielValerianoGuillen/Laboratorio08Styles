@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio08.CSS">
+    <ContentPage.Resources>
+        <StyleSheetExtension Source="estilos.css"></StyleSheetExtension>
+        </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Fill"   VerticalOptions="Center">
+            <StackLayout>
+                <Label HorizontalTextAlignment="Center" Text="INGRESAR PRODUCTOS" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Entry Placeholder="Nombre"></Entry>
+                <Entry Placeholder="Cantidad"></Entry>
+                <Entry Placeholder="Precio"></Entry>
+                <Entry Placeholder="Marca"></Entry>
+                <Entry Placeholder="Color"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Button x:Name="limpiar"  Text="Limpiar"></Button>
+                <Button x:Name="agregar" Text="Agregar"></Button>
+            </StackLayout>
+         </StackLayout>
+   </ContentPage.Content>
+</ContentPage>

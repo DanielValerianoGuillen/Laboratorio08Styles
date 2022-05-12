@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio08.MainPage">
+
+    <StackLayout>
+        
+            <Button x:Name="Item1" Text="ExplicitDemo"/>
+            <Button x:Name="Item2" Text="ExplicitControlDemo"/>
+            <Button x:Name="Item3" Text="ImplicitDemo"/>
+            <Button x:Name="Item4" Text="ImplicitControlDemo"/>
+            <Button x:Name="Item5" Text="GlobalDemo"/>
+            <Button x:Name="Item6" Text="InheritanceDemo"/>
+            <Button x:Name="Item7" Text="DynamicDemo"/>
+            <Button x:Name="Item8" Text="CSS"/>
+      
+    </StackLayout>
+
+</ContentPage>

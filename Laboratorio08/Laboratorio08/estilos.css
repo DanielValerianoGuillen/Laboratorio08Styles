@@ -1,0 +1,32 @@
+﻿^contentpage {
+    background-color: aliceblue;
+}
+Label {
+    font-size: 20;
+    color: red;
+}
+Entry {
+    color: orangered;
+    font-style: normal;
+    font-size: 17;
+    border: 1;
+    border-radius: 3px;
+}
+#limpiar {
+    background-color: orange;
+    border-radius: 25;
+    border: 1 solid orange;
+    display: inline-block;
+    color: white;
+    font-family: Arial;
+    font-size: 17;
+}
+#agregar {
+    background-color: green;
+    border-radius: 25;
+    border: 1 solid green;
+    display: inline-block;
+    color: white;
+    font-family: Arial;
+    font-size: 17;
+}
